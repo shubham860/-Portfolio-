@@ -1,0 +1,13 @@
+.container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.item1{
+   border:2px solid black;
+   transform: rotate(60deg);
+}
+
+.main{
+  transform: rotate(-60deg); 
+}
