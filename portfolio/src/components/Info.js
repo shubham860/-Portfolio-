@@ -1,10 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import '../css/Info.css'
 
 class Info extends React.Component {
   render () {
         return(
-          bhgchcjh
+          <div class='info'>
+
+          </div>
         )
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import '../css/Dashboard.css'
-import Info from './components/Info'
+import Info from '../components/Info'
 
 
 class Dashboard extends React.Component {
