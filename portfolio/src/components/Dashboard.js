@@ -12,7 +12,18 @@ class Dashboard extends React.Component {
                 <Info/>
               </div>
               <div class='item2'>
+                <div class='item2a'>
 
+                </div>
+                <div class='item2b'>
+
+                </div>
+                <div class='item2c'>
+
+                </div>
+                <div class='item2d'>
+
+                </div>
               </div>
             </div>
       )

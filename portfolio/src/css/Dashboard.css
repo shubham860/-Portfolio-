@@ -1,9 +1,47 @@
 .container{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 700px auto;
 }
 
 .item1{
    border:2px solid black;
-   transform: rotate(50deg);
+   transform: rotate(55deg);
+   margin-top: 130px;
+   margin-left:-300px;
+   height:800px;
+   width:800px;
+}
+.item2{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  transform: rotate(55deg);
+  margin-top: -400px;
+  margin-left: -348px;
+}
+
+.item2a{
+  border:2px solid black;
+  width: 486px;
+  height : 400px;
+  margin-top: 912px;
+  margin-left: -100px;
+}
+
+.item2b{
+  border:2px solid black;
+  width: 430px;
+  height : 400px;
+  margin-top: 912px;
+}
+
+.item2c{
+  border:2px solid black;
+  width: 430px;
+  height : 150px;
+}
+
+.item2d{
+  border:2px solid black;
+  width: 430px;
+  height : 150px;
 }
