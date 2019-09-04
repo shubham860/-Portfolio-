@@ -4,12 +4,12 @@
 }
 
 .item1{
-   border:2px solid black;
+   border:2px solid white;
    transform: rotate(55deg);
    margin-top: 130px;
    margin-left:-300px;
    height:800px;
-   width:800px;
+   width:820px;
 }
 .item2{
   display: grid;
@@ -20,7 +20,7 @@
 }
 
 .item2a{
-  border:2px solid black;
+  border:2px solid white;
   width: 486px;
   height : 540px;
   margin-top: 626px;
@@ -28,23 +28,23 @@
 }
 
 .item2b{
-  border:2px solid black;
+  border:2px solid white;
   width: 430px;
   height : 540px;
   margin-top: 626px;
-  margin-left: -92px;
+  margin-left: -102px;
 }
 
 .item2c{
-  border:2px solid black;
+  border:2px solid white;
   width: 400px;
   height : 540px;
   margin-top: 626px;
-  margin-left: -92px;
+  margin-left: -102px;
 }
 
 .item2d{
-  border:2px solid black;
+  border:2px solid white;
   width: 430px;
   height : 550px;
   margin-top: 73px;
