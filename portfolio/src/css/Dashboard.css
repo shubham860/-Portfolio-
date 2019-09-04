@@ -22,26 +22,32 @@
 .item2a{
   border:2px solid black;
   width: 486px;
-  height : 400px;
-  margin-top: 912px;
-  margin-left: -100px;
+  height : 540px;
+  margin-top: 626px;
+  margin-left: -170px;
 }
 
 .item2b{
   border:2px solid black;
   width: 430px;
-  height : 400px;
-  margin-top: 912px;
+  height : 540px;
+  margin-top: 626px;
+  margin-left: -92px;
 }
 
 .item2c{
   border:2px solid black;
-  width: 430px;
-  height : 150px;
+  width: 400px;
+  height : 540px;
+  margin-top: 626px;
+  margin-left: -92px;
 }
 
 .item2d{
   border:2px solid black;
   width: 430px;
-  height : 150px;
+  height : 550px;
+  margin-top: 73px;
+  margin-left: -630px;
+
 }
