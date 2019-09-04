@@ -6,7 +6,7 @@ import Resume from '../components/Resume'
 import Portfolio from '../components/Portfolio'
 import Contact from '../components/Contact'
 import Skills from '../components/Skills'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 
 
@@ -15,20 +15,22 @@ class Dashboard extends React.Component {
       return(
             <div class='container'>
               <div class='item1'>
-                <Info/>
+
               </div>
               <div class='item2'>
                 <div class='item2a'>
-                  <Resume/>
+                  <div>
+                  <Link to='/Resume'><h1>Resume</h1></Link>
+                  </div>
                 </div>
                 <div class='item2b'>
-                  <Portfolio/>
+                  <Link to='/Portfolio'><h1>Portfolio</h1></Link>
                 </div>
                 <div class='item2c'>
-                  <Skills/>
+                <Link to='/Skills'><h1>Skills</h1></Link>
                 </div>
                 <div class='item2d'>
-                  <Contact/>
+                  <Link to='/Contact'><h1>Contact</h1></Link>
                 </div>
               </div>
             </div>
