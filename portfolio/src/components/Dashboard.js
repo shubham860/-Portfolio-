@@ -15,27 +15,27 @@ class Dashboard extends React.Component {
       return(
             <div class='container'>
               <div class='item1'>
-
+                <Info/>
               </div>
               <div class='item2'>
                 <div class='item2a'>
                   <div class='Resume'>
-                  <Link to='/Resume'><h1>Resume</h1></Link>
+                  <Link to='/Resume' class='deco'><p class='Specs'>Resume</p></Link>
                   </div>
                 </div>
                 <div class='item2b'>
                   <div class='Portfolio'>
-                    <Link to='/Portfolio'><h1>Portfolio</h1></Link>
+                    <Link to='/Portfolio' class='deco'><p class='Specs'>Portfolio</p></Link>
                   </div>
                 </div>
                 <div class='item2c'>
                   <div class='Skills'>
-                    <Link to='/Skills'><h1>Skills</h1></Link>
+                    <Link to='/Skills' class='deco'><p class='Specs'>Skills</p></Link>
                   </div>
                 </div>
                 <div class='item2d'>
                   <div class='Contact'>
-                    <Link to='/Contact'><h1>Contact</h1></Link>
+                    <Link to='/Contact' class='deco'><p class='Specs'>Contact</p></Link>
                   </div>
                 </div>
               </div>

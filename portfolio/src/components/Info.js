@@ -1,15 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import '../css/Info.css'
 
-class Info extends React.Component {
-  render () {
-        return(
-          <div class='info'>
-
-          </div>
-        )
-  }
+const Info = (props) => {
+  return (
+    <div class='Info'>
+      <div class='Portfolio'>
+        <p class='hi'>Hi, I'm</p>
+        <p class='name'>SHUBHAM CHAUHAN</p>
+        <p class='Desig'>Developer</p>
+      </div>
+    </div>
+  )
 }
 
-export default Info;
+export default Info

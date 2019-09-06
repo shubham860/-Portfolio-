@@ -52,19 +52,47 @@
 }
 
 .Resume{
-  transform : rotate(0deg);
+  transform : rotate(-55deg);
+  margin-top: 350px;
+  margin-left : 290px;
 }
 
-.Portfolio{
+.Portfolio,.Skills,.Contact{
   transform : rotate(-55deg);
   margin-top : 250px;
+}
 
+.deco{
+  text-decoration: none;
+  outline : 0;
+  color : white;
 }
-.Skills{
-  transform : rotate(-55deg);
-  margin-top : 250px;
+
+.deco:focus{
+  text-decoration: none;
+  outline : 0;
 }
-.Contact{
-  transform : rotate(-55deg);
-  margin-top : 250px;
+
+.deco:visited{
+  text-decoration: none;
+  outline : 0;
+}
+
+.Specs{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.hi{
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: -210px;
+  margin-bottom: 5px;
+}
+
+.name{
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 200px;
 }
