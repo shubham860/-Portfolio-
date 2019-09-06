@@ -4,7 +4,7 @@
 }
 
 .item1{
-   border:2px solid white;
+   border:1px solid rgba(255, 255, 255, 0.4);
    transform: rotate(55deg);
    margin-top: 130px;
    margin-left:-300px;
@@ -20,35 +20,80 @@
 }
 
 .item2a{
-  border:2px solid white;
+  border:1px solid rgba(255, 255, 255, 0.4);
   width: 486px;
   height : 540px;
-  margin-top: 626px;
+  margin-top: 627px;
   margin-left: -170px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.item2a:hover{
+  border:  15px solid rgba(255, 255, 255, 0.1);;
+  width: 450px;
+  height : 510px;
+  margin-top: 627px;
+  margin-left: -170px;
+  cursor: pointer;
 }
 
 .item2b{
-  border:2px solid white;
+  border:1px solid rgba(255, 255, 255, 0.4);
   width: 430px;
   height : 540px;
-  margin-top: 626px;
+  margin-top: 627px;
   margin-left: -102px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.item2b:hover{
+  border:  15px solid rgba(255, 255, 255, 0.1);;
+  width: 400px;
+  height : 510px;
+  margin-top: 627px;
+  margin-left: -102px;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
 .item2c{
-  border:2px solid white;
+  border:1px solid rgba(255, 255, 255, 0.4);
   width: 400px;
   height : 540px;
-  margin-top: 626px;
+  margin-top: 627px;
   margin-left: -102px;
+  cursor: pointer;
+  transition: all 0.5s;
 }
-
+.item2c:hover{
+  border:  15px solid rgba(255, 255, 255, 0.1);;
+  width: 370px;
+  height : 510px;
+  margin-top: 627px;
+  margin-left: -102px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
 .item2d{
-  border:2px solid white;
+  border:1px solid rgba(255, 255, 255, 0.4);
   width: 430px;
   height : 550px;
-  margin-top: 73px;
+  margin-top: 75px;
   margin-left: -630px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.item2d:hover{
+  border:  15px solid rgba(255, 255, 255, 0.1);;
+  width: 400px;
+  height : 510px;
+  margin-top: 75px;
+  margin-left: -630px;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
 .Resume{
@@ -65,7 +110,7 @@
 .deco{
   text-decoration: none;
   outline : 0;
-  color : white;
+  color : #fff;
 }
 
 .deco:focus{
@@ -78,10 +123,38 @@
   outline : 0;
 }
 
+.one{
+  position: absolute;
+  width: 75px;
+  margin: 0px 0px 0px 11px;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom:1px solid rgba(255, 255, 255, 0.4);
+}
+
+.onep{
+  margin: -20px 0px 0px -55px;
+}
+
+.two{
+  position: absolute;
+  width: 75px;
+  margin: 0px 0px 0px 115px;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom:1px solid rgba(255, 255, 255, 0.4);
+}
+
+.twop{
+  margin: -20px 0px 0px -55px;
+}
+
 .Specs{
   font-size: 30px;
   font-weight: 600;
+  padding: 5px;
 }
+
 
 .hi{
   font-size: 30px;
@@ -95,4 +168,12 @@
   font-weight: 600;
   margin: 0;
   margin-left: 200px;
+}
+
+.Desig{
+  font-size: 30px;
+  font-weight: 400;
+  margin: 5px;
+  margin-left: -30px;
+
 }

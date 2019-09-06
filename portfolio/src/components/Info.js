@@ -7,7 +7,7 @@ const Info = (props) => {
       <div class='Portfolio'>
         <p class='hi'>Hi, I'm</p>
         <p class='name'>SHUBHAM CHAUHAN</p>
-        <p class='Desig'>Developer</p>
+        <p class='Desig'>Frontend Developer</p>
       </div>
     </div>
   )

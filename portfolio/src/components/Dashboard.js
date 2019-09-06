@@ -20,22 +20,26 @@ class Dashboard extends React.Component {
               <div class='item2'>
                 <div class='item2a'>
                   <div class='Resume'>
-                  <Link to='/Resume' class='deco'><p class='Specs'>Resume</p></Link>
+                  <div class='one'><p class='onep'>01</p></div>
+                  <Link to='/Resume' class='deco'><p class='Specs'>RESUME</p></Link>
                   </div>
                 </div>
                 <div class='item2b'>
                   <div class='Portfolio'>
-                    <Link to='/Portfolio' class='deco'><p class='Specs'>Portfolio</p></Link>
+                    <div class='two'><p class='twop'>02</p></div>
+                    <Link to='/Portfolio' class='deco'><p class='Specs'>PORTFOLIO</p></Link>
                   </div>
                 </div>
                 <div class='item2c'>
                   <div class='Skills'>
-                    <Link to='/Skills' class='deco'><p class='Specs'>Skills</p></Link>
+                    <div class='two'><p class='twop'>03</p></div>
+                    <Link to='/Skills' class='deco'><p class='Specs'>SKILLS</p></Link>
                   </div>
                 </div>
                 <div class='item2d'>
                   <div class='Contact'>
-                    <Link to='/Contact' class='deco'><p class='Specs'>Contact</p></Link>
+                    <div class='two'><p class='twop'>04</p></div>
+                    <Link to='/Contact' class='deco'><p class='Specs'>CONTACT</p></Link>
                   </div>
                 </div>
               </div>
