@@ -56,7 +56,7 @@ class Dashboard extends React.Component {
                     <p class='Specs'>CONTACT</p>
                   </div>
                 </div>
-              </Link>  
+              </Link>
 
               </div>
             </div>
