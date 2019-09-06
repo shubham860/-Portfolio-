@@ -89,7 +89,7 @@
 .item2d:hover{
   border:  15px solid rgba(255, 255, 255, 0.1);;
   width: 400px;
-  height : 510px;
+  height : 520px;
   margin-top: 75px;
   margin-left: -630px;
   cursor: pointer;
@@ -125,28 +125,50 @@
 
 .one{
   position: absolute;
-  width: 75px;
-  margin: 0px 0px 0px 11px;
+  width: 100px;
+  margin: 0px 0px 0px -15px;
   font-size: 16px;
   font-weight: 700;
   border-bottom:1px solid rgba(255, 255, 255, 0.4);
+  transition: all 0.5s;
 }
 
+.one:hover{
+  position: absolute;
+  width: 100px;
+  margin: 25px 0px 0px -33px;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom:1px solid rgba(255, 255, 255, 0.4);
+  transition: all 0.5s;
+}
+
+
 .onep{
-  margin: -20px 0px 0px -55px;
+  margin: -20px 0px 0px -85px;
 }
 
 .two{
   position: absolute;
-  width: 75px;
-  margin: 0px 0px 0px 115px;
+  width: 100px;
+  margin: 0px 0px 0px 80px;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom:1px solid rgba(255, 255, 255, 0.4);
+  transition: all 0.5s;
+}
+
+.two:hover{
+  position: absolute;
+  width: 87px;
+  margin: 25px 0px 0px 80px;
   font-size: 16px;
   font-weight: 700;
   border-bottom:1px solid rgba(255, 255, 255, 0.4);
 }
 
 .twop{
-  margin: -20px 0px 0px -55px;
+  margin: -20px 0px 0px -85px;
 }
 
 .Specs{
