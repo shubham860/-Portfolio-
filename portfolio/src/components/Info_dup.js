@@ -1,10 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import '../css/Info_Dup.css'
+import AOS from 'aos'
 
 const Info_dup = (props) => {
+  AOS.init();
   return (
-    <div class='Infos'>
+    <div class='Infos' data-aos="zoom-out-right">
       <div class='Portfolios'>
         <p class='his'>Hi, I'm</p>
         <p class='names'>SHUBHAM CHAUHAN</p>
