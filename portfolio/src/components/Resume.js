@@ -3,7 +3,11 @@ import PropTypes from 'prop-types'
 
 class Resume extends React.Component {
   render () {
-    return <h2>Resume</h2>
+    return(
+      <div class='container'>
+        <h1>Resume</h1>
+      </div>
+    )
   }
 }
 

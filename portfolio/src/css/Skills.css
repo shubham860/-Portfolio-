@@ -1,0 +1,4 @@
+.skill-container{
+  display: grid;
+  grid-template-columns: 550px auto;
+}
