@@ -44,7 +44,7 @@ class Dashboard extends React.Component {
               <Link to='/Skills' class='deco'>
                 <div class='item2c'>
                   <div class='Skills'>
-                    <div class='two'><p class='twop'>03</p></div>
+                    <div class='three'><p class='twop'>03</p></div>
                     <p class='Specs'>SKILLS</p>
                   </div>
                 </div>
@@ -53,7 +53,7 @@ class Dashboard extends React.Component {
               <Link to='/Contact' class='deco'>
                 <div class='item2d'>
                   <div class='Contact'>
-                    <div class='two'><p class='twop'>04</p></div>
+                    <div class='three'><p class='twop'>04</p></div>
                     <p class='Specs'>CONTACT</p>
                   </div>
                 </div>

@@ -6,22 +6,22 @@
 .item1{
    border:1px solid rgba(255, 255, 255, 0.4);
    transform: rotate(55deg);
-   margin-top: 130px;
+   margin-top: 120px;
    margin-left:-300px;
    height:800px;
-   width:820px;
+   width:800px;
 }
 .item2{
   display: grid;
   grid-template-columns: auto auto auto auto;
   transform: rotate(55deg);
-  margin-top: -400px;
+  margin-top: -488px;
   margin-left: -348px;
 }
 
 .item2a{
   border:1px solid rgba(255, 255, 255, 0.4);
-  width: 486px;
+  width: 450px;
   height : 540px;
   margin-top: 627px;
   margin-left: -170px;
@@ -30,18 +30,18 @@
 }
 
 .item2a:hover{
-  border:  15px solid rgba(255, 255, 255, 0.1);;
-  width: 450px;
-  height : 510px;
-  margin-top: 627px;
-  margin-left: -170px;
+  border:  13px solid rgba(255, 255, 255, 0.1);;
+  width: 412px;
+  height : 512px;
+  margin-top: 630px;
+  margin-left: -168px;
   cursor: pointer;
 }
 
 .item2a:hover .one{
   position: absolute;
-  width: 100px;
-  margin: 25px 0px 0px -33px;
+  width: 85px;
+  margin: 23px 0px 0px -40px;
   font-size: 16px;
   font-weight: 700;
   border-bottom:1px solid rgba(255, 255, 255, 0.4);
@@ -50,28 +50,28 @@
 
 .item2b{
   border:1px solid rgba(255, 255, 255, 0.4);
-  width: 430px;
-  height : 540px;
-  margin-top: 627px;
-  margin-left: -102px;
+  width: 398px;
+  height : 500px;
+  margin-top: 667px;
+  margin-left: -52px;
   cursor: pointer;
   transition: all 0.5s;
 }
 
 .item2b:hover{
-  border:  15px solid rgba(255, 255, 255, 0.1);;
-  width: 400px;
-  height : 510px;
-  margin-top: 627px;
-  margin-left: -102px;
+  border:  14px solid rgba(255, 255, 255, 0.1);;
+  width: 362px;
+  height : 475px;
+  margin-top: 667px;
+  margin-left: -52px;
   cursor: pointer;
   transition: all 0.5s;
 }
 
 .item2b:hover .two{
   position: absolute;
-  width: 90px;
-  margin: 25px 0px 0px 80px;
+  width: 80px;
+  margin: 25px 0px 0px 76px;
   font-size: 16px;
   font-weight: 700;
   border-bottom:1px solid rgba(255, 255, 255, 0.4);
@@ -80,26 +80,26 @@
 .item2c{
   border:1px solid rgba(255, 255, 255, 0.4);
   width: 400px;
-  height : 540px;
-  margin-top: 627px;
-  margin-left: -102px;
+  height : 500px;
+  margin-top: 667px;
+  margin-left: -52px;
   cursor: pointer;
   transition: all 0.5s;
 }
 .item2c:hover{
-  border:  15px solid rgba(255, 255, 255, 0.1);;
-  width: 370px;
-  height : 510px;
-  margin-top: 627px;
-  margin-left: -102px;
+  border:  13px solid rgba(255, 255, 255, 0.1);;
+  width: 372px;
+  height : 476px;
+  margin-top: 667px;
+  margin-left: -52px;
   cursor: pointer;
   transition: all 0.5s;
 }
 
-.item2c:hover .two{
+.item2c:hover .three{
   position: absolute;
   width: 87px;
-  margin: 25px 0px 0px 80px;
+  margin: 25px 0px 0px 95px;
   font-size: 16px;
   font-weight: 700;
   border-bottom:1px solid rgba(255, 255, 255, 0.4);
@@ -108,28 +108,28 @@
 
 .item2d{
   border:1px solid rgba(255, 255, 255, 0.4);
-  width: 430px;
-  height : 550px;
-  margin-top: 75px;
-  margin-left: -630px;
+  width: 400px;
+  height : 500px;
+  margin-top: 165px;
+  margin-left: -590px;
   cursor: pointer;
   transition: all 0.5s;
 }
 
 .item2d:hover{
-  border:  15px solid rgba(255, 255, 255, 0.1);;
-  width: 400px;
-  height : 520px;
-  margin-top: 75px;
-  margin-left: -630px;
+  border:  13px solid rgba(255, 255, 255, 0.1);
+  width: 402px;
+  height : 475px;
+  margin-top: 165px;
+  margin-left: -590px;
   cursor: pointer;
   transition: all 0.5s;
 }
 
-.item2d:hover .two{
+.item2d:hover .three{
   position: absolute;
   width: 87px;
-  margin: 25px 0px 0px 80px;
+  margin: 25px 0px 0px 95px;
   font-size: 16px;
   font-weight: 700;
   border-bottom:1px solid rgba(255, 255, 255, 0.4);
@@ -138,13 +138,13 @@
 
 .Resume{
   transform : rotate(-55deg);
-  margin-top: 350px;
+  margin-top: 370px;
   margin-left : 290px;
 }
 
 .Portfolio,.Skills,.Contact{
   transform : rotate(-55deg);
-  margin-top : 250px;
+  margin-top : 260px;
 }
 
 .deco{
@@ -165,7 +165,7 @@
 
 .one{
   position: absolute;
-  width: 100px;
+  width: 85px;
   margin: 0px 0px 0px -15px;
   font-size: 16px;
   font-weight: 700;
@@ -174,12 +174,13 @@
 }
 
 .onep{
-  margin: -20px 0px 0px -85px;
+  margin: -20px 0px 0px -70px;
+  font-size: 13px;
 }
 
 .two{
   position: absolute;
-  width: 100px;
+  width: 96px;
   margin: 0px 0px 0px 80px;
   font-size: 16px;
   font-weight: 700;
@@ -188,11 +189,22 @@
 }
 
 .twop{
-  margin: -20px 0px 0px -78px;
+  margin: -20px 0px 0px -75px;
+  font-size: 13px;
+}
+
+.three{
+  position: absolute;
+  width: 96px;
+  margin: 0px 0px 0px 100px;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom:1px solid rgba(255, 255, 255, 0.4);
+  transition: all 0.5s;
 }
 
 .Specs{
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 600;
   padding: 5px;
 }
