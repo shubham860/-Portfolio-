@@ -38,6 +38,16 @@
   cursor: pointer;
 }
 
+.item2a:hover .one{
+  position: absolute;
+  width: 100px;
+  margin: 25px 0px 0px -33px;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom:1px solid rgba(255, 255, 255, 0.4);
+  transition: all 0.5s;
+}
+
 .item2b{
   border:1px solid rgba(255, 255, 255, 0.4);
   width: 430px;
@@ -58,6 +68,15 @@
   transition: all 0.5s;
 }
 
+.item2b:hover .two{
+  position: absolute;
+  width: 90px;
+  margin: 25px 0px 0px 80px;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom:1px solid rgba(255, 255, 255, 0.4);
+}
+
 .item2c{
   border:1px solid rgba(255, 255, 255, 0.4);
   width: 400px;
@@ -76,6 +95,17 @@
   cursor: pointer;
   transition: all 0.5s;
 }
+
+.item2c:hover .two{
+  position: absolute;
+  width: 87px;
+  margin: 25px 0px 0px 80px;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom:1px solid rgba(255, 255, 255, 0.4);
+}
+
+
 .item2d{
   border:1px solid rgba(255, 255, 255, 0.4);
   width: 430px;
@@ -95,6 +125,16 @@
   cursor: pointer;
   transition: all 0.5s;
 }
+
+.item2d:hover .two{
+  position: absolute;
+  width: 87px;
+  margin: 25px 0px 0px 80px;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom:1px solid rgba(255, 255, 255, 0.4);
+}
+
 
 .Resume{
   transform : rotate(-55deg);
@@ -133,17 +173,6 @@
   transition: all 0.5s;
 }
 
-.one:hover{
-  position: absolute;
-  width: 100px;
-  margin: 25px 0px 0px -33px;
-  font-size: 16px;
-  font-weight: 700;
-  border-bottom:1px solid rgba(255, 255, 255, 0.4);
-  transition: all 0.5s;
-}
-
-
 .onep{
   margin: -20px 0px 0px -85px;
 }
@@ -156,15 +185,6 @@
   font-weight: 700;
   border-bottom:1px solid rgba(255, 255, 255, 0.4);
   transition: all 0.5s;
-}
-
-.two:hover{
-  position: absolute;
-  width: 87px;
-  margin: 25px 0px 0px 80px;
-  font-size: 16px;
-  font-weight: 700;
-  border-bottom:1px solid rgba(255, 255, 255, 0.4);
 }
 
 .twop{
@@ -197,5 +217,4 @@
   font-weight: 400;
   margin: 5px;
   margin-left: -30px;
-
 }
