@@ -9,10 +9,12 @@ const Info = (props) => {
         <p class='hi'>Hi, I'm</p>
         <p class='name'>SHUBHAM CHAUHAN</p>
         <p class='Desig'>Frontend Developer</p>
+      </div>
+      <div class='social-nav'>
         <ul class='social'>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
         </ul>
       </div>
     </div>

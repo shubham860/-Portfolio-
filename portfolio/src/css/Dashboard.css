@@ -218,3 +218,12 @@
   margin: 5px;
   margin-left: -30px;
 }
+
+div.social-nav{
+  display: flex; 
+}
+
+.social{
+  list-style-type: none;
+  transform: rotate(-55deg);
+}
