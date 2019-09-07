@@ -188,42 +188,11 @@
 }
 
 .twop{
-  margin: -20px 0px 0px -85px;
+  margin: -20px 0px 0px -78px;
 }
 
 .Specs{
   font-size: 30px;
   font-weight: 600;
   padding: 5px;
-}
-
-
-.hi{
-  font-size: 30px;
-  font-weight: 400;
-  margin-left: -210px;
-  margin-bottom: 5px;
-}
-
-.name{
-  font-size: 50px;
-  font-weight: 600;
-  margin: 0;
-  margin-left: 200px;
-}
-
-.Desig{
-  font-size: 30px;
-  font-weight: 400;
-  margin: 5px;
-  margin-left: -30px;
-}
-
-div.social-nav{
-  display: flex; 
-}
-
-.social{
-  list-style-type: none;
-  transform: rotate(-55deg);
 }

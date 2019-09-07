@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {Link} from 'react-router-dom'
+import '../css/Info.css'
 
 const Info = (props) => {
   return (
@@ -11,11 +12,14 @@ const Info = (props) => {
         <p class='Desig'>Frontend Developer</p>
       </div>
       <div class='social-nav'>
-        <ul class='social'>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-        </ul>
+        <table class='social'>
+          <tr>
+          <td><a href='https://github.com/shubham860' target='_blank'><ion-icon name="logo-github" class='logo'></ion-icon></a></td>
+          <td><a href='https://www.linkedin.com/in/shubham-chauhan-5a1821153/' target='_blank'><ion-icon name="logo-linkedin" class='logo'></ion-icon></a></td>
+          <td><a href='https://www.facebook.com/shubham.chauhan.583671/' target='_blank'><ion-icon name="logo-facebook" class='logo'></ion-icon></a></td>
+          <td><a href='https://twitter.com/chauhan860' target='_blank'><ion-icon name="logo-twitter" class='logo'></ion-icon></a></td>
+          </tr>
+        </table>
       </div>
     </div>
   )
