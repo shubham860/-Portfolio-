@@ -45,7 +45,7 @@ class Dashboard extends React.Component {
                 <div class='item2c'>
                   <div class='Skills'>
                     <div class='three'><p class='twop'>03</p></div>
-                    <p class='Specs'>SKILLS</p>
+                    <p class='Specs'>ABOUT</p>
                   </div>
                 </div>
               </Link>

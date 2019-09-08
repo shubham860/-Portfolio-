@@ -1,9 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Info_dup from '../components/Info_dup'
+import Nav from '../components/Nav'
 
 class Portfolio extends React.Component {
   render () {
-    return <h2>Portfolio</h2>
+    return(
+        <div class='skill-container'>
+          <div class='infos'>
+            <Info_dup/>
+          </div>
+          <div class='skills'>
+            <Nav/>
+              <div>
+                <h1>Portfoolio</h1>
+              </div>
+          </div>
+        </div>
+    )
   }
 }
 

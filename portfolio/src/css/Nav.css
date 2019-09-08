@@ -1,0 +1,41 @@
+nav{
+  display : flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 40px;
+  background-color: #ebeff2;
+  color : black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10 !important;
+}
+
+li{
+  list-style-type: none;
+}
+
+.nav-links{
+  width:30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  float:right;
+  margin : 0px;
+  margin-right: 50px;
+}
+
+.nav-a{
+  margin: 6px;
+  font-size: 16px;
+  font-weight: 800;
+  color : #666;
+}
+
+.nav-a:hover{
+  margin: 6px;
+  font-size: 16px;
+  font-weight: 800;
+  color : #333;
+}

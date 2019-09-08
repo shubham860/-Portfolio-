@@ -2,3 +2,9 @@
   display: grid;
   grid-template-columns: 550px auto;
 }
+
+.skills{
+  height : 900px;
+  background-color: white;
+  color : black;
+}
