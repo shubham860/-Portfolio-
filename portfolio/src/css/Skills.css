@@ -22,3 +22,8 @@
   color : #333;
   font-weight: 800;
 }
+
+.about-head{
+  border-bottom: 1px solid #ddd;
+  height: 75px;
+}
