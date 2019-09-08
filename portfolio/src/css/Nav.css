@@ -30,12 +30,12 @@ li{
   margin: 6px;
   font-size: 16px;
   font-weight: 800;
-  color : #666;
+  color : #333;
 }
 
 .nav-a:hover{
   margin: 6px;
   font-size: 16px;
   font-weight: 800;
-  color : #333;
+  color : #666;
 }

@@ -13,7 +13,7 @@ class Portfolio extends React.Component {
           <div class='skills'>
             <Nav/>
               <div>
-                <h1>Portfoolio</h1>
+                <h1>Portfolio</h1>
               </div>
           </div>
         </div>

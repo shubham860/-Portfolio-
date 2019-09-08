@@ -13,6 +13,14 @@ class Skills extends React.Component {
           </div>
           <div class='skills'>
             <Nav/>
+          <div class='about-container'>
+            <div class='about-head'>
+              <p class='head'>ABOUT</p>
+            </div>
+            <div class='details'>
+              <p>scggsucgib</p>
+            </div>
+          </div>
           </div>
         </div>
     )
