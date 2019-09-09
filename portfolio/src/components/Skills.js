@@ -21,14 +21,29 @@ class Skills extends React.Component {
               <div class='icon'>
                 <ion-icon name="speedometer"></ion-icon>
                 <p class='icon-head'>Fast</p>
+                <p class='para'>Fast load times and lag free interaction, my highest priority.</p>
               </div>
-              <div class='icon'><ion-icon name="tablet-portrait"></ion-icon></div>
-              <div class='icon'><ion-icon name="bulb"></ion-icon></div>
-              <div class='icon'><ion-icon name="rocket"></ion-icon></div>
+              <div class='icon'>
+                <ion-icon name="tablet-portrait"></ion-icon>
+                <p class='icon-head1'>Responsive</p>
+                <p class='para'>My layouts will work on any device, big or small.</p>
+              </div>
+              <div class='icon'>
+                <ion-icon name="bulb"></ion-icon>
+                <p class='icon-head2'>Intutive</p>
+                <p class='para'>Strong preference for easy to use, intuitive UX/UI.</p>
+              </div>
+              <div class='icon'>
+                <ion-icon name="rocket"></ion-icon>
+                <p class='icon-head2'>Dynamic</p>
+                <p class='para'>Websites don't have to be static, I love making pages come to life.</p>
+              </div>
+            </div>
+
+            <div class='details-2'></div>
             </div>
           </div>
           </div>
-        </div>
     )
   }
 }

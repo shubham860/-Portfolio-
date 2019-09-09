@@ -7,6 +7,7 @@
   height : 900px;
   background-color: white;
   color : black;
+  overflow-y: scroll;
 }
 
 .about-container{
@@ -31,7 +32,7 @@
 .details-1{
   display: flex;
   justify-content: space-around;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .icon{
@@ -49,4 +50,47 @@
   color: #616161;
   font-size: 20px;
   font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
 }
+
+.icon-head1{
+  color: #616161;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: -20px;
+  margin-bottom: 10px;
+}
+
+.icon-head2{
+  color: #616161;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: -5px;
+  margin-bottom: 10px;
+}
+
+.para{
+  color: #616161;
+  font-size: 13px;
+  width: 200px;
+  margin: 0;
+  margin-left: -65px;
+}
+
+  /*----scrollbar----*/
+   /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+   }
+
+    /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white;
+    border-radius: 0px;
+   }
+     /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #1B242F;
+    border-radius: 0px;
+   }
