@@ -25,7 +25,8 @@ class Skills extends React.Component {
                 <img src={dp} class='img'/>
               </div>
               <div class='info'>
-                <p class=bio''></p>
+                <p class='bio-head'>Who's this guy?</p>
+                <p class='bio'>I'm the Front-End Developer and Machine Learning enthusiast I have serious passion for UI effects, animations, creating intuitive, dynamic user experiences, Data visualization and Data analysis.</p>
               </div>
             </div>
 
