@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Info_dup from '../components/Info_dup'
 import Nav from '../components/Nav'
 import '../css/Skills.css'
+import dp from '../images/dp1.jpg'
 
 class Skills extends React.Component {
   render () {
@@ -14,9 +15,20 @@ class Skills extends React.Component {
           <div class='skills'>
             <Nav/>
           <div class='about-container'>
+
             <div class='about-head'>
               <p class='head'>ABOUT</p>
             </div>
+
+            <div class='details-2'>
+              <div class='photo'>
+                <img src={dp} class='img'/>
+              </div>
+              <div class='info'>
+                <p class=bio''></p>
+              </div>
+            </div>
+
             <div class='details-1'>
               <div class='icon'>
                 <ion-icon name="speedometer"></ion-icon>
@@ -40,10 +52,10 @@ class Skills extends React.Component {
               </div>
             </div>
 
-            <div class='details-2'></div>
+            </div>
             </div>
           </div>
-          </div>
+
     )
   }
 }
