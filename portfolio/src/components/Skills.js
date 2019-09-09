@@ -17,8 +17,14 @@ class Skills extends React.Component {
             <div class='about-head'>
               <p class='head'>ABOUT</p>
             </div>
-            <div class='details'>
-              <p>scggsucgib</p>
+            <div class='details-1'>
+              <div class='icon'>
+                <ion-icon name="speedometer"></ion-icon>
+                <p class='icon-head'>Fast</p>
+              </div>
+              <div class='icon'><ion-icon name="tablet-portrait"></ion-icon></div>
+              <div class='icon'><ion-icon name="bulb"></ion-icon></div>
+              <div class='icon'><ion-icon name="rocket"></ion-icon></div>
             </div>
           </div>
           </div>

@@ -3,12 +3,13 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 40px;
-  background-color: #ebeff2;
+  background-color: #1B242F;
   color : black;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 10 !important;
+  border-bottom : 3px solid #04C2C9;
 }
 
 li{
@@ -29,13 +30,11 @@ li{
 .nav-a{
   margin: 6px;
   font-size: 16px;
-  font-weight: 800;
-  color : #333;
+  color : white;
 }
 
 .nav-a:hover{
   margin: 6px;
   font-size: 16px;
-  font-weight: 800;
-  color : #666;
+  color : #ccc;
 }

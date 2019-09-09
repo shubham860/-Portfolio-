@@ -27,3 +27,26 @@
   border-bottom: 1px solid #ddd;
   height: 75px;
 }
+
+.details-1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.icon{
+  font-size: 50px;
+  height : 60px;
+  width : 60px;
+  background-color: #04C2C9;
+  color : white;
+  padding: 10px;
+  border: 1px solid #04C2C9;
+  border-radius: 100px;
+}
+
+.icon-head{
+  color: #616161;
+  font-size: 20px;
+  font-weight: 600;
+}
