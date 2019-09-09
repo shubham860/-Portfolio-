@@ -4,8 +4,25 @@ import Info_dup from '../components/Info_dup'
 import Nav from '../components/Nav'
 import '../css/Skills.css'
 import dp from '../images/dp1.jpg'
+import {Bar} from 'react-chartjs-2'
 
 class Skills extends React.Component {
+  constructor(props){
+   super(props)
+   this.state = {
+     chartData:{
+       labels: ['ReactJs','Html','CSS','Bootstrap','JavaScript','JQuery','Python','Django','Machine Learning','Java','C','SQL'],
+       datasets:[
+         {
+           label:'Skills',
+           data: [70,90,80,90,70,60,70,40,70,60,70,50],
+           backgroundColor:'#04C2C9'
+         }
+       ]
+     }
+   }
+ }
+
   render () {
     return(
         <div class='skill-container'>
@@ -43,13 +60,50 @@ class Skills extends React.Component {
               </div>
               <div class='icon'>
                 <ion-icon name="bulb"></ion-icon>
-                <p class='icon-head2'>Intutive</p>
+                <p class='icon-head2'>Intuitive</p>
                 <p class='para'>Strong preference for easy to use, intuitive UX/UI.</p>
               </div>
               <div class='icon'>
                 <ion-icon name="rocket"></ion-icon>
                 <p class='icon-head2'>Dynamic</p>
                 <p class='para'>Websites don't have to be static, I love making pages come to life.</p>
+              </div>
+            </div>
+
+            <div class='details-3'>
+              <div class='skill'>
+                <Bar
+                  data={this.state.chartData}
+                  options={{
+                    title:{
+                      display: 'bhaiya',
+                    },
+                    legend:{
+                      display: true,
+                      position: 'right'
+                    },
+                    scales: {
+                        xAxes: [{
+                            gridLines: {
+                                drawOnChartArea: false
+                            },
+                            ticks: {
+                                maxRotation: 50,
+                                minRotation: 50
+                            }
+                        }],
+                        yAxes: [{
+                            gridLines: {
+                                drawOnChartArea: false
+                            },
+                            ticks: {
+                                suggestedMin: 10,
+                                suggestedMax: 100
+                            }
+                        }]
+                    }
+                  }}
+                />
               </div>
             </div>
 

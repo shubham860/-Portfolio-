@@ -4,7 +4,7 @@
 }
 
 .skills{
-  height : 900px;
+  height : 800px;
   background-color: white;
   color : black;
   overflow-y: scroll;
@@ -117,4 +117,8 @@
   color : #616161;
   font-weight: 600;
   font-size: 21px;
+}
+
+.details-3{
+  margin-top: 160px;
 }
