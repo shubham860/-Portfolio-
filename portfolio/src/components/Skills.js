@@ -70,6 +70,7 @@ class Skills extends React.Component {
               </div>
             </div>
 
+
             <div class='details-3'>
               <div class='skill'>
                 <Bar

@@ -1,0 +1,25 @@
+.contact-container{
+  display: grid;
+  grid-template-columns: 550px auto;
+}
+
+.contact{
+  height : 800px;
+  background-color: white;
+  color : black;
+  overflow-y: scroll;
+}
+
+.form-container{
+  display : grid;
+  grid-template-rows: auto;
+  margin-top: 40px;
+  padding : 60px;
+}
+
+.chead{
+  float: left;
+  font-size: 26px;
+  color : #333;
+  font-weight: 800;
+}
