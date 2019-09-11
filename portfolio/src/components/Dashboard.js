@@ -8,8 +8,6 @@ import Contact from '../components/Contact'
 import Skills from '../components/Skills'
 import {Link} from 'react-router-dom'
 
-
-
 class Dashboard extends React.Component {
 
   render () {
