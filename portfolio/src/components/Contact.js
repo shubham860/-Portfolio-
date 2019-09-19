@@ -36,17 +36,10 @@ class Contact extends React.Component {
   submit = () => {
    const { name,email,text} = this.state
 
-   if(name=='' | email =='' | text=='' )
-   {
-     alert(`Enter All inputs properly`);
-   }
-   else
-   {
-     alert(`Name : ${name}\nEmail : ${email}\nMessage : {text}`);
-   }
+   (name=='' | email =='' | text=='' ) ? alert(`Enter all inputs properly`) : alert(`Name : ${name}\nEmail : ${email}\nMessage : {text}`)
 
+       }
 
-}
   render () {
     const {name,email,text} = this.state
     return(
