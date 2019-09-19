@@ -32,28 +32,29 @@
 .ip{
   width:450px;
   height: 30px;
-  margin-bottom: 18px;
+  margin-bottom: 26px;
   border : 1px solid white;
   border-bottom : 1px solid #666;
-  font-size: 13px;
+  font-size: 14px;
   text-decoration: none;
   outline: 0;
 }
 
 .tb{
   width:450px;
-  height: 100px;
+  height: 140px;
   margin-bottom: 25px;
   border : 1px solid white;
   border-bottom : 1px solid #666;
-  font-size: 13px;
+  font-size: 14px;
   text-decoration: none;
   outline: 0;
   font-style: normal;
 }
 ::placeholder{
   font-family: 'Manjari', sans-serif;
-  color :#495057;
+  color : #727272;
+  font-weight: 500;
 }
 
 .btn{
@@ -71,5 +72,41 @@
   float: left;
   letter-spacing: 1.5px;
   padding: 17px;
+}
 
+.address{
+  padding: 0px 45px 0px 88px;
+}
+
+.icons{
+  font-size: 28px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.a{
+  text-align: left;
+}
+
+.e{
+  text-align: left;
+}
+
+.f{
+  text-align: left;
+}
+
+.b{
+  color : #727272;
+  text-align:
+
+}
+
+.add{
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.tel{
+  color : #727272;
 }
