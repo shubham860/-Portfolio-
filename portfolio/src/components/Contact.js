@@ -34,7 +34,6 @@ class Contact extends React.Component {
       })
   }
 
-
   componentDidMount(){
     this.refhandler.current.focus();
   }
