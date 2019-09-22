@@ -41,7 +41,7 @@ class Contact extends React.Component {
   submit = () => {
    const { name,email,text} = this.state;
 
-   (name=='' | email =='' | text=='' ) ? alert(`Enter all inputs properly`) : alert(`Name : ${name}\nEmail : ${email}\nMessage : {text}`)
+   (name=='' | email =='' | text=='' ) ? alert(`Enter all inputs properly`) : alert(`Name : ${name}\nEmail : ${email}\nMessage : ${text}`)
 
        }
 
