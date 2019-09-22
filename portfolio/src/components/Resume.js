@@ -32,7 +32,7 @@ class Resume extends React.Component {
             <Nav/>
             <div class='main-container'>
               <div class='about-head'>
-                <p class='chead'>RESUME</p>
+                <p class='chead'>PROFILE</p>
               </div>
 
               <div class='intro'>
