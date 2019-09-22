@@ -78,3 +78,39 @@
   margin-bottom : 0px;
   margin-top: -10px;
 }
+
+.download-btn{
+  float: right;
+  height: 25px;
+  width: 180px;
+  padding: 10px;
+  background-color: #333;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  border : 1px solid white;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+
+}
+
+
+.download-btn:hover{
+  float: right;
+  height: 25px;
+  width: 180px;
+  padding: 10px;
+  background-color: #444;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  border : 1px solid white;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+.download-icon{
+  font-size: 20px;
+}

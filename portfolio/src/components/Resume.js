@@ -31,6 +31,9 @@ class Resume extends React.Component {
           <div class='skills'>
             <Nav/>
             <div class='main-container'>
+              <div>
+                <a  class='download-btn' href='https://drive.google.com/uc?export=download&id=1Zx3xNnwNk6TgFC1PINvjDmufVq8H2CjVrxMu-Wh88Pk' download>Download Resume</a>
+              </div>
               <div class='about-head'>
                 <p class='chead'>PROFILE</p>
               </div>
@@ -156,6 +159,8 @@ class Resume extends React.Component {
                     <p class='ach-name'>3. Selected for the Grand Finale of Smart India Hackathon 2019</p>
                   </div>
                 </div>
+
+
 
               </div>
 
