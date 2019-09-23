@@ -58,6 +58,30 @@ class Resume extends React.Component {
                   <p class='options-details'><span class='options'>Skype :  </span> Shubham860</p>
                 </div>
 
+
+                <div class='about-head' style={{marginTop : "40px"}}>
+                  <p class='chead'>Education</p>
+                </div>
+                <div class='education'>
+                  <div class='btech'>
+                    <p class='deg-name'>Moradabad Institute of Technology(AKTU),Moradabad</p>
+                    <p class='degree'>B.TECH (CS&E) , 2016 -2020</p>
+                    <p class='degree'>Aggregate : 83.2%</p>
+                  </div>
+
+                  <div class='inter'>
+                    <p class='deg-name'>VKS Public School (CBSE),Moradabad</p>
+                    <p class='degree'>SENIOR SECONDARY (XII) ,2016</p>
+                    <p class='degree'>Percentage: 72</p>
+                  </div>
+
+                  <div class='Highschool'>
+                    <p class='deg-name'>VKS Public School (CBSE),Moradabad</p>
+                    <p class='degree'>SECONDARY (X) ,2014</p>
+                    <p class='degree'>CGPA: 9.4</p>
+                  </div>
+                </div>
+
                 <div class='about-head' style={{marginTop : "40px"}}>
                   <p class='chead'>SKILLS</p>
                 </div>
@@ -96,31 +120,8 @@ class Resume extends React.Component {
                   />
                 </div>
 
-                <div class='about-head'>
-                  <p class='chead'>Education</p>
-                </div>
-                <div class='education'>
-                  <div class='btech'>
-                    <p class='deg-name'>Moradabad Institute of Technology(AKTU),Moradabad</p>
-                    <p class='degree'>B.TECH (CS&E) , 2016 -2020</p>
-                    <p class='degree'>Aggregate : 83.2%</p>
-                  </div>
 
-                  <div class='inter'>
-                    <p class='deg-name'>VKS Public School (CBSE),Moradabad</p>
-                    <p class='degree'>SENIOR SECONDARY (XII) ,2016</p>
-                    <p class='degree'>Percentage: 72</p>
-                  </div>
-
-                  <div class='Highschool'>
-                    <p class='deg-name'>VKS Public School (CBSE),Moradabad</p>
-                    <p class='degree'>SECONDARY (X) ,2014</p>
-                    <p class='degree'>CGPA: 9.4</p>
-                  </div>
-                </div>
-
-
-                <div class='about-head' style={{marginTop : "40px"}}>
+                <div class='about-head' >
                   <p class='chead'>EXPERIENCE</p>
                 </div>
                 <div class='education'>

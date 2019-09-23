@@ -1,0 +1,12 @@
+.Portfolio-container{
+  display: grid;
+  grid-template-columns: 550px auto;
+}
+
+.start{
+  display : grid;
+  grid-template-rows: auto;
+  margin-top: 40px;
+  padding : 60px;
+  margin-bottom: 50px;
+}
