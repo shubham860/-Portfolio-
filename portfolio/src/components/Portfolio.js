@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import Info_dup from '../components/Info_dup'
 import Nav from '../components/Nav'
 import Nav2 from '../components/Nav2'
-import All from '../components/All'
 import '../css/Portfolio.css'
 
 class Portfolio extends React.Component {
