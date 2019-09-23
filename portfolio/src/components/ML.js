@@ -1,10 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Nav2 from '../components/Nav2'
 
 class ML extends React.Component {
   render () {
     return(
-      <h1>Hello All</h1>
+      <div>
+      <Nav2/>
+      <h1>Hello ML</h1>
+      </div>
     )
   }
 }

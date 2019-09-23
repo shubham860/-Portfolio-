@@ -2,11 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Info_dup from '../components/Info_dup'
 import Nav from '../components/Nav'
-import '../css/Portfolio.css'
-import {Link} from 'react-router-dom'
+import Nav2 from '../components/Nav2'
 import All from '../components/All'
-import ML from '../components/ML'
-import Frontend from '../components/Frontend'
+import '../css/Portfolio.css'
 
 class Portfolio extends React.Component {
   render () {
@@ -23,11 +21,7 @@ class Portfolio extends React.Component {
                 </div>
 
                 <div class='filters'>
-                    <ul class='nav-links'>
-                      <li><Link to='/Portfolio/'><p class='nav-a'>Home</p></Link></li>
-                      <li><Link to='/Portfolio/Frontend'><p class='nav-a'>Resume</p></Link></li>
-                      <li><Link to='/Portfolio/ML'><p class='nav-a'>Portfolio</p></Link></li>
-                    </ul>
+                  <Nav2/>
                 </div>
               </div>
           </div>

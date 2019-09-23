@@ -22,8 +22,8 @@ function App() {
         <Route path='/Portfolio' component={Portfolio}/>
         <Route path='/Skills' component={Skills}/>
         <Route path='/Contact' component={Contact}/>
-        <Route path='/Portfolio/All' component={All}/>
-        <Route path='/Portfolio/Frpntend' component={Frontend}/>
+        <Route path='/Portfolio/' component={All}/>
+        <Route path='/Portfolio/Frontend' component={Frontend}/>
         <Route path='/Portfolio/ML' component={ML}/>
       </Switch>
     </div>
