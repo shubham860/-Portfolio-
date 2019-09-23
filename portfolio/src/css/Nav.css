@@ -27,6 +27,16 @@ li{
   margin-right: 50px;
 }
 
+.nav-links2{
+  width:50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding : 0;
+  margin : 40px 50px 0px 0px;
+}
+
 .nav-a{
   margin: 6px;
   font-size: 16px;
@@ -36,7 +46,14 @@ li{
 .nav-b{
   margin: 6px;
   font-size: 16px;
-  color : #333;
+  font-weight: 500;
+  color : #727272;
+}
+
+.nav-c{
+  margin: 6px;
+  font-size: 16px;
+  color : #727272;
 }
 
 .nav-b:hover{

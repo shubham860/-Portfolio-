@@ -21,7 +21,7 @@ function App() {
           <Route path='/Portfolio' component={Portfolio}/>
           <Route path='/Skills' component={Skills}/>
           <Route path='/Contact' component={Contact}/>
-          <Route path='/Portfolio/All' exact component={All}/>
+          <Route path='/Portfolio/All'  component={All}/>
           <Route path='/Portfolio/Frontend' component={Frontend}/>
           <Route path='/Portfolio/Ml' component={Ml}/>
         </Switch>
