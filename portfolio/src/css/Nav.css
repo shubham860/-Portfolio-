@@ -33,6 +33,19 @@ li{
   color : white;
 }
 
+.nav-b{
+  margin: 6px;
+  font-size: 16px;
+  color : #333;
+}
+
+.nav-b:hover{
+  margin: 6px;
+  font-size: 16px;
+  color : #444;
+}
+
+
 .nav-a:hover{
   margin: 6px;
   font-size: 16px;
