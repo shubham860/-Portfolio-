@@ -149,11 +149,11 @@ class Resume extends React.Component {
                 </div>
                 <div class='education'>
                   <div class='btech'>
-                    <p class='achi-name'>1. Secured 1st Position in AKTU Zonal Level Coding Contest</p>
+                    <p class='achi-name'>1. Secured 1st Position in AKTU Zonal Level Coding Contest 2019</p>
                   </div>
 
                   <div class='inter'>
-                    <p class='ach-name'>2. Secured 1st Position in AKTU State Level Coding Contest</p>
+                    <p class='ach-name'>2. Secured 1st Position in AKTU State Level Coding Contest 2019</p>
                   </div>
 
                   <div class='Highschool'>

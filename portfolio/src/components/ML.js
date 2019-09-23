@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Nav2 from '../components/Nav2'
 
-class ML extends React.Component {
+class Ml extends React.Component {
   render () {
     return(
       <div>
@@ -13,4 +13,4 @@ class ML extends React.Component {
   }
 }
 
-export default ML;
+export default Ml;
