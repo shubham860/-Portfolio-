@@ -5,7 +5,6 @@ import Nav from '../components/Nav'
 import '../css/Contact.css'
 
 class Contact extends React.Component {
-
   constructor(props){
     super(props);
     this.state= {
@@ -42,7 +41,6 @@ class Contact extends React.Component {
    const { name,email,text} = this.state;
 
    (name=='' | email =='' | text=='' ) ? alert(`Enter all inputs properly`) : alert(`Name : ${name}\nEmail : ${email}\nMessage : ${text}`)
-
        }
 
   render () {
@@ -103,8 +101,7 @@ class Contact extends React.Component {
                   </div>
                 </div>
               </div>
-          </div>
-
+            </div>
     )
   }
 }
