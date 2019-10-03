@@ -60,12 +60,12 @@ class Portfolio extends React.Component {
                 <div class='filters'>
                   <ul class='nav-links2'>
                     <li><p class='nav-c'>Filters : </p></li>
-                    <li><a onClick={this.all}><p class='nav-b'>All</p></a></li>
-                    <li><a onClick={this.frontend}><p class='nav-b'>Frontend</p></a></li>
-                    <li><a onClick={this.ml}><p class='nav-b'>Machine Learning</p></a></li>
+                    <li><a onClick={this.all} class='pointer'><p class='nav-b'>All</p></a></li>
+                    <li><a onClick={this.frontend} class='pointer'><p class='nav-b'>Frontend</p></a></li>
+                    <li><a onClick={this.ml} class='pointer'><p class='nav-b'>Machine Learning</p></a></li>
                   </ul>
                 </div>
-                <div class='main'>
+                <div class='main-pills'>
                   {
                     all && <All/>
                   }
