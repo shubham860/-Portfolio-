@@ -6,7 +6,6 @@ class All extends React.Component {
   render () {
     return(
       <div>
-      <Nav2/>
       <h1>Hello All</h1>
       </div>
     )

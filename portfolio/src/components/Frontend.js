@@ -6,7 +6,6 @@ class Frontend extends React.Component {
   render () {
     return(
       <div>
-      <Nav2/>
       <h1>Hello Frontend</h1>
       </div>
     )

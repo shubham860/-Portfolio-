@@ -2,11 +2,49 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Info_dup from '../components/Info_dup'
 import Nav from '../components/Nav'
-import Nav2 from '../components/Nav2'
+import Frontend from '../components/Frontend'
+import All from '../components/All'
+import Ml from '../components/Ml'
 import '../css/Portfolio.css'
 
 class Portfolio extends React.Component {
+  constructor(){
+    super()
+    this.state = {
+      all : true,
+      frontend  : false,
+      ml : false
+    }
+  }
+
+  all = () => {
+      this.setState({
+        all : true,
+        frontend : false,
+        ml : false
+      })
+  }
+
+
+    frontend = () => {
+        this.setState({
+          all : false,
+          frontend : true,
+          ml : false
+        })
+    }
+
+
+    ml = () => {
+        this.setState({
+          all : false,
+          frontend : false,
+          ml : true
+        })
+    }
+
   render () {
+    const {all,ml,frontend} = this.state
     return(
         <div class='Portfolio-container'>
           <div class='infos'>
@@ -20,7 +58,23 @@ class Portfolio extends React.Component {
                 </div>
 
                 <div class='filters'>
-                  <Nav2/>
+                  <ul class='nav-links2'>
+                    <li><p class='nav-c'>Filters : </p></li>
+                    <li><a onClick={this.all}><p class='nav-b'>All</p></a></li>
+                    <li><a onClick={this.frontend}><p class='nav-b'>Frontend</p></a></li>
+                    <li><a onClick={this.ml}><p class='nav-b'>Machine Learning</p></a></li>
+                  </ul>
+                </div>
+                <div class='main'>
+                  {
+                    all && <All/>
+                  }
+                  {
+                    frontend && <Frontend/>
+                  }
+                  {
+                    ml && <Ml/>
+                  }
                 </div>
               </div>
           </div>
