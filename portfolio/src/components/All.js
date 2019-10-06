@@ -8,14 +8,25 @@ class All extends React.Component {
   render () {
     return(
       <div class='all'>
-        <div>
-          <img src={engilife} class='small'/>
+        <div class='image-container' >
+          <img src={engilife} class='port-image'/>
+            <div class="middle">
+               <div class="text"> <a href="https://www.w3schools.com/css/css3_2dtransforms.asp" target="_blank">View</a> </div>
+              </div>
         </div>
-        <div>
-          <img src={alumni} class='small'/>
+
+        <div class='image-container' >
+          <img src={engilife} class='port-image'/>
+            <div class="middle">
+               <div class="text"><a href="https://www.w3schools.com/css/css3_2dtransforms.asp" target="_blank">View</a> </div>
+              </div>
         </div>
-        <div>
-          <img src={radar} class='small'/>
+
+        <div class='image-container' >
+          <img src={engilife} class='port-image'/>
+            <div class="middle">
+               <div class="text"> <a href="https://www.w3schools.com/css/css3_2dtransforms.asp" target="_blank">View</a> </div>
+              </div>
         </div>
       </div>
     )
