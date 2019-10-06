@@ -1,3 +1,4 @@
+@media screen and (min-width: 1025px){
 .contact-container{
   display: grid;
   grid-template-columns: 550px auto;
@@ -109,4 +110,122 @@
 
 .tel{
   color : #727272;
+}
+}
+
+@media screen and (max-width: 1025px){
+.contact-container{
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.contact{
+  background-color: white;
+  color : black;
+  overflow-y: scroll;
+}
+
+.form-container{
+  display : grid;
+  grid-template-rows: auto;
+  margin-top: 40px;
+  padding : 30px;
+}
+
+.chead{
+  float: left;
+  font-size: 26px;
+  color : #333;
+  font-weight: 800;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.ip{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 26px;
+  border : 1px solid white;
+  border-bottom : 1px solid #666;
+  font-size: 14px;
+  text-decoration: none;
+  outline: 0;
+}
+
+.tb{
+  width: 100%;
+  height: 140px;
+  margin-bottom: 25px;
+  border : 1px solid white;
+  border-bottom : 1px solid #666;
+  font-size: 14px;
+  text-decoration: none;
+  outline: 0;
+  font-style: normal;
+}
+::placeholder{
+  font-family: 'Manjari', sans-serif;
+  color : #727272;
+  font-weight: 500;
+}
+
+.btn{
+  font-family: 'Manjari', sans-serif;
+  height: 46px;
+  padding: 10px;
+  background-color: #333333;
+  color : white;
+  border : 2px solid white;
+  text-decoration: none;
+  outline: 0;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  float: left;
+  letter-spacing: 1.5px;
+  padding: 17px;
+}
+
+.address{
+  padding: 40px 45px 0px 88px;
+  display: none;
+}
+
+.icons{
+  font-size: 28px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.a{
+  text-align: left;
+}
+
+.e{
+  text-align: left;
+}
+
+.f{
+  text-align: left;
+}
+
+.b{
+  color : #727272;
+  text-align:
+
+}
+
+.add{
+  margin-bottom: 15px;
+  display: flex;
+
+}
+
+.tel{
+  color : #727272;
+}
 }
