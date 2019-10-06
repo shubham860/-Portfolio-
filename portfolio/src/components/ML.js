@@ -9,6 +9,7 @@ import review1 from '../images/a_review.png'
 import spam from '../images/spam.png'
 import ipl from '../images/ipl.png'
 import cetpa from '../images/cetpa.png'
+import twitter from '../images/twitter.jpg'
 
 
 class Ml extends React.Component {
@@ -110,6 +111,18 @@ class Ml extends React.Component {
             <div class="middle">
               <div>
                 <h4>CETPA Reviews Classifier</h4>
+              </div>
+               <div class="text">
+                 <a href='https://github.com/shubham860' target='_blank'><ion-icon name="logo-github" class='logo'></ion-icon></a>
+               </div>
+              </div>
+        </div>
+
+        <div class='image-container' >
+          <img src={twitter} class='port-image'/>
+            <div class="middle">
+              <div>
+                <h4>NLP on tweets</h4>
               </div>
                <div class="text">
                  <a href='https://github.com/shubham860' target='_blank'><ion-icon name="logo-github" class='logo'></ion-icon></a>
