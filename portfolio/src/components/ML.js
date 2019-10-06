@@ -33,7 +33,7 @@ class Ml extends React.Component {
           <img src={election} class='port-image'/>
             <div class="middle">
               <div>
-                <h4>Lok-sabha 2019</h4>
+                <h4>Lok-sabha Election 2019</h4>
               </div>
                <div class="text">
                   <a href='https://github.com/shubham860' target='_blank'><ion-icon name="logo-github" class='logo'></ion-icon></a>
@@ -45,7 +45,7 @@ class Ml extends React.Component {
           <img src={movie} class='port-image'/>
             <div class="middle">
               <div>
-                <h4>Movie Recommendation</h4>
+                <h4>Movie Recommendation System</h4>
               </div>
                <div class="text">
                 <a href='https://github.com/shubham860' target='_blank'><ion-icon name="logo-github" class='logo'></ion-icon></a>
