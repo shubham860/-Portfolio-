@@ -48,12 +48,12 @@ class Skills extends React.Component {
             </div>
 
             <div class='details-1'>
-              <div class='icon'>
-                <ion-icon name="speedometer"></ion-icon>
+              <div>
+                <ion-icon name="speedometer" class='icon'></ion-icon>
                 <p class='icon-head'>Fast</p>
                 <p class='para'>Fast load times and lag free interaction, my highest priority.</p>
               </div>
-              <div class='icon'>
+              <div>
                 <ion-icon name="tablet-portrait"></ion-icon>
                 <p class='icon-head1'>Responsive</p>
                 <p class='para'>My layouts will work on any device, big or small.</p>
