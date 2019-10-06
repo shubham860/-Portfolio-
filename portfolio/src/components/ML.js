@@ -2,10 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import '../css/Portfolio.css'
 import mnist from '../images/mnist.png'
-import election from '../images/election.png'
+import election from '../images/election.jpg'
 import movie from '../images/movie.jpeg'
 import usa from '../images/usa.png'
 import review1 from '../images/a_review.png'
+import spam from '../images/spam.png'
+import ipl from '../images/ipl.png'
+import cetpa from '../images/cetpa.png'
+
 
 class Ml extends React.Component {
   render () {
@@ -76,13 +80,13 @@ class Ml extends React.Component {
         </div>
 
         <div class='image-container' >
-          <img src={book} class='port-image'/>
+          <img src={spam} class='port-image'/>
             <div class="middle">
               <div>
-                <h4>Webmarker</h4>
+                <h4>Spam Ham Classifier</h4>
               </div>
                <div class="text">
-                 <a href="https://webmarker.surge.sh/" target="_blank">Visit</a>
+                 <a href='https://github.com/shubham860' target='_blank'><ion-icon name="logo-github" class='logo'></ion-icon></a>
                </div>
               </div>
         </div>
@@ -90,40 +94,29 @@ class Ml extends React.Component {
 
       <div class='all'>
         <div class='image-container' >
-          <img src={aarambh} class='port-image'/>
+          <img src={ipl} class='port-image'/>
             <div class="middle">
               <div>
-                <h4>Aarambh TSI</h4>
+                <h4>IPL Statistics</h4>
               </div>
                <div class="text">
-                 <a href="https://aarambh.surge.sh/" target="_blank">Visit</a>
+                 <a href='https://github.com/shubham860' target='_blank'><ion-icon name="logo-github" class='logo'></ion-icon></a>
                </div>
               </div>
         </div>
 
         <div class='image-container' >
-          <img src={todo} class='port-image'/>
+          <img src={cetpa} class='port-image'/>
             <div class="middle">
               <div>
-                <h4>Todo List</h4>
+                <h4>CETPA Reviews Classifier</h4>
               </div>
                <div class="text">
-                 <a href="https://sctodo.surge.sh" target="_blank">Visit</a>
+                 <a href='https://github.com/shubham860' target='_blank'><ion-icon name="logo-github" class='logo'></ion-icon></a>
                </div>
               </div>
         </div>
 
-        <div class='image-container' >
-          <img src={homie} class='port-image'/>
-            <div class="middle">
-              <div>
-                <h4>Homie</h4>
-              </div>
-               <div class="text">
-                 <a href="https://reactassignment.surge.sh/" target="_blank">Visit</a>
-               </div>
-              </div>
-        </div>
       </div>
 
     </div>
