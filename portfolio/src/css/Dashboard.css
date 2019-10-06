@@ -1,3 +1,4 @@
+@media screen and (min-width: 1025px){
 .container{
   display: grid;
   grid-template-columns: 700px auto;
@@ -203,8 +204,118 @@
   transition: all 0.5s;
 }
 
-.Specs{
+.Specs1,.Specs2,.Specs3,.Specs4{
   font-size: 27px;
   font-weight: 600;
   padding: 5px;
+}
+}
+
+
+
+
+@media screen and (max-width: 1025px){
+.container{
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.item1{
+   height:200px;
+}
+
+.item2{
+  display: grid;
+  grid-template-rows: auto;
+  margin-top: 60px;
+}
+
+.item2a{
+  border-top:1px solid rgba(255, 255, 255, 0.4);
+  height : 80px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+
+.item2b{
+  border-top:1px solid rgba(255, 255, 255, 0.4);
+  height : 80px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+
+
+.item2c{
+  border-top:1px solid rgba(255, 255, 255, 0.4);
+  height : 80px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+
+
+.item2d{
+  border-top:1px solid rgba(255, 255, 255, 0.4);
+  height : 80px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.deco{
+  text-decoration: none;
+  outline : 0;
+  color : #fff;
+}
+
+.deco:focus{
+  text-decoration: none;
+  outline : 0;
+}
+
+.deco:visited{
+  text-decoration: none;
+  outline : 0;
+}
+
+.one{
+  position: absolute;
+  margin: 0px 0px 0px 60px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.onep{
+  margin: -20px 0px 0px -75px;
+  font-size: 13px;
+}
+
+.two{
+  position: absolute;
+  margin: 10px 0px 0px 60px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.twop{
+  margin: -20px 0px 0px -75px;
+  font-size: 13px;
+}
+
+.three{
+  position: absolute;
+  margin: 0px 0px 0px 60px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.Specs1,.Specs2,.Specs3,.Specs4{
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: -18  0px;
+}
 }

@@ -24,7 +24,7 @@ class Dashboard extends React.Component {
                   <div class='item2a'>
                     <div class='Resume'>
                     <div class='one'><p class='onep'>01</p></div>
-                    <p class='Specs'>RESUME</p>
+                    <p class='Specs1'>RESUME</p>
                     </div>
                   </div>
                 </Link>
@@ -34,7 +34,7 @@ class Dashboard extends React.Component {
                 <div class='item2b'>
                   <div class='Portfolio'>
                     <div class='two'><p class='twop'>02</p></div>
-                    <p class='Specs'>PORTFOLIO</p>
+                    <p class='Specs2'>PORTFOLIO</p>
                   </div>
                 </div>
               </Link>
@@ -43,7 +43,7 @@ class Dashboard extends React.Component {
                 <div class='item2c'>
                   <div class='Skills'>
                     <div class='three'><p class='twop'>03</p></div>
-                    <p class='Specs'>ABOUT</p>
+                    <p class='Specs3'>ABOUT</p>
                   </div>
                 </div>
               </Link>
@@ -52,7 +52,7 @@ class Dashboard extends React.Component {
                 <div class='item2d'>
                   <div class='Contact'>
                     <div class='three'><p class='twop'>04</p></div>
-                    <p class='Specs'>CONTACT</p>
+                    <p class='Specs4'>CONTACT</p>
                   </div>
                 </div>
               </Link>

@@ -1,3 +1,4 @@
+@media screen and (min-width: 1025px){
 .hi{
   font-size: 25px;
   font-weight: 400;
@@ -40,4 +41,51 @@ table.social{
 a{
   color : white;
   text-decoration: none;
+}
+}
+
+
+@media screen and (max-width: 1025px){
+.Portfolio{
+  margin-top: -10px;
+}
+.hi{
+  font-size: 20px;
+  font-weight: 400;
+  margin: 60px 0px 0px -290px;
+}
+
+.name{
+  font-size: 32px;
+  font-weight: 600;
+  margin : 0px 0px 0px -35px;
+}
+
+.Desig{
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0px 0px 10px -130px;
+
+}
+
+table.social{
+  margin-left:5px;
+}
+
+.logo{
+  font-size: 23px;
+  padding: 0px 8px 0px  8px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.logo:hover{
+  font-size: 20px;
+  padding: 0px 10px 0px  10px;
+  cursor: pointer;
+}
+a{
+  color : white;
+  text-decoration: none;
+}
 }
