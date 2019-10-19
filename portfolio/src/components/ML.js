@@ -11,7 +11,6 @@ import ipl from '../images/ipl.png'
 import cetpa from '../images/cetpa.png'
 import twitter from '../images/twitter.jpg'
 
-
 class Ml extends React.Component {
   render () {
     return(
