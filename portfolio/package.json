@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^4.2.5",
     "aos": "^2.3.4",
     "chart.js": "^2.8.0",
     "react": "^16.9.0",
