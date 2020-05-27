@@ -7,7 +7,7 @@ const app = express();
 
 app.use(bodyParser());
 app.use(cors());
-
+    
 const start = () => {
     app.listen(3005,() => {
         console.log("server running on http://localhost:3005")
