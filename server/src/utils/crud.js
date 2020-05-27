@@ -9,9 +9,9 @@ const updateOne = model => (res,req) => {};
 const createOne = model => (res,req) => {};
 
 const crudController = model => ({
-    getOne : getOne(model),
-    getMany : getMany(model),
-    removeOne : removeOne(model),
+    getOne: getOne(model),
+    getMany: getMany(model),
+    removeOne: removeOne(model),
     updateOne: updateOne(model),
     createOne: createOne(model)
 });
