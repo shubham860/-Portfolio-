@@ -14,7 +14,6 @@ app.use(urlencoded({ extended: true }));
 app.use(cors());
 app.post('/signIn',signIn);
 app.post('/signUp',signUp);
-
 app.use('/user',router);
 app.use('/about',aboutRouter);
 

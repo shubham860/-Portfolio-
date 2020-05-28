@@ -4,7 +4,7 @@ const controller = require('./about.controller');
 const aboutRouter = Router();
 
 aboutRouter.route('/')
-    .get(controller.getMany)
+    // .get(controller.getMany)
     .post(controller.createOne);
 
 aboutRouter.route('/:id')
