@@ -1,7 +1,7 @@
 const User = require('./user.model');
 
 const profile = (req,res) => {
-    res.status(200).json({data : req.user});
+    res.status(200).json({data : req.user,status:"success"});
 };
 
 const updateProfile = async (req,res) => {
