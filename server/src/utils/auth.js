@@ -21,13 +21,14 @@ const verifyToken = token =>
 
 
 const signUp = async (req,res) => {
-    if(!req.body.email || !req.body.password){
-        return res.status(404).send({message: "Invalid email and password"})
+    if(!req.body.email || !req.body.password || !req.body.firstName || !req.body.lastName || !req.body.Designation){
+        return res.status(404).send({message: "Please fill all the fields"})
     }
     try{
-        const user = await User.create(req.body);
-        const token = newToken(user);
-        return res.status(200).send({status: "successfully", token})
+        // const user = await User.create(req.body);
+        // const token = newToken(user);
+        await User.create(req.body);
+        return res.status(200).send({status: "successfully"})
     }catch (e) {
         console.log(e);
         return res.status(404).end()

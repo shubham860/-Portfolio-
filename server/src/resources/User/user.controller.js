@@ -7,7 +7,7 @@ const profile = async (req,res) => {
 
 const updateProfile = async (req,res) => {
     try {
-        const user = await User.findByIdAndUpdate(req.user._id, req.body, {new: true});
+        const user = await User.findOneAndUpdate(req.params.id, req.body, {new: true});
         res.status(200).json({data: user})
     } catch (e) {
         console.error(e);
