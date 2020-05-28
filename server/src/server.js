@@ -1,13 +1,20 @@
 const express = require('express');
-const bodyParser = require('body-parser');
+const { json, urlencoded } = require('body-parser');
 const cors  = require('cors');
 require('./utils/db');
+const {signIn, signUp, protect} = require('./utils/auth');
+const {router} = require('./resources/User/user.router');
 
 const app = express();
 
-app.use(bodyParser());
+app.use(json());
+app.use(urlencoded({ extended: true }));
 app.use(cors());
-    
+app.post('/signIn',signIn);
+app.post('/signUp',signUp);
+
+app.use('/user',router);
+
 const start = () => {
     app.listen(3005,() => {
         console.log("server running on http://localhost:3005")
