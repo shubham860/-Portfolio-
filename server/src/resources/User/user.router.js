@@ -4,7 +4,7 @@ const {profile, updateProfile} = require('./user.controller');
 const router = Router();
 
 router
-    .get('/profile',profile)
-    .put('/updateProfile',updateProfile);
+    .get('/profile/:id',profile)
+    .put('/updateProfile/:id',updateProfile);
 
 module.exports = {router};

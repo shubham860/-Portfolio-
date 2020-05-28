@@ -2,6 +2,7 @@ const express = require('express');
 const { json, urlencoded } = require('body-parser');
 const cors  = require('cors');
 require('./utils/db');
+require('dotenv').config();
 const {signIn, signUp, protect} = require('./utils/auth');
 const {router} = require('./resources/User/user.router');
 
@@ -23,3 +24,4 @@ const start = () => {
 
 
 module.exports = start;
+

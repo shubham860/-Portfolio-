@@ -1,7 +1,8 @@
 const User = require('./user.model');
 
-const profile = (req,res) => {
-    res.status(200).json({data : req.user,status:"success"});
+const profile = async (req,res) => {
+    const user = await User.findOne({_id: req.params.id});
+    res.status(200).json({data : user,status:"success"});
 };
 
 const updateProfile = async (req,res) => {

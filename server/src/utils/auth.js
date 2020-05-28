@@ -2,7 +2,6 @@ const User = require('../resources/User/user.model');
 const jwt = require('jsonwebtoken') ;
 
 
-const env = process.env.NODE_ENV || 'development';
 const secrets =  {
     jwt: process.env.JWT_SECRET,
     jwtExp: '100d'
