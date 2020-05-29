@@ -5,6 +5,7 @@ require('./utils/db');
 require('dotenv').config();
 const {signIn, signUp, protect} = require('./utils/auth');
 const aboutRouter = require('./resources/About/about.router');
+const resumeRouter = require('./resources/Resume/resume.router');
 const {router} = require('./resources/User/user.router');
 
 const app = express();
@@ -16,6 +17,7 @@ app.post('/signIn',signIn);
 app.post('/signUp',signUp);
 app.use('/user',router);
 app.use('/about',aboutRouter);
+app.use('/resume',resumeRouter);
 
 const start = () => {
     app.listen(3005,() => {

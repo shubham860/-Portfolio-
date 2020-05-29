@@ -68,6 +68,19 @@ const resumeSchema = new Schema({
             name: String,
             desc: String
         }
-    ]
+    ],
+
+    certifications: [
+        {
+            name: {type: String, required: true},
+            organisation: {type: String, required: true},
+            desc: {type: String, required: true},
+            expireDate: {type: String, required: true},
+        }
+    ],
 
 },{timestamps: true});
+
+const resumePage = model('resumeSchema', resumeSchema);
+
+module.exports = resume;
