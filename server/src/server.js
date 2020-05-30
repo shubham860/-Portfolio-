@@ -15,7 +15,7 @@ app.use(urlencoded({ extended: true }));
 app.use(cors());
 app.post('/signIn',signIn);
 app.post('/signUp',signUp);
-app.use('/user',router);
+app.use('/user',protect,router);
 app.use('/about',aboutRouter);
 app.use('/resume',resumeRouter);
 
@@ -24,7 +24,6 @@ const start = () => {
         console.log("server running on http://localhost:3005")
     });
 };
-
 
 module.exports = start;
 

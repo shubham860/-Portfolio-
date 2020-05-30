@@ -1,12 +1,13 @@
-const {Router} = require('express');
+const router = require('express').Router();
 const controllers = require('./resume.controller');
 
-const resumeRouter = Router;
 
-resumeRouter.route('/')
+router.route('/')
             .get(controllers.getMany)
             .post(controllers.createOne);
 
-resumeRouter.route('/:id')
+router.route('/:id')
     .put(controllers.updateOne)
     .delete(controllers.removeOne);
+
+module.exports = router;

@@ -1,18 +1,16 @@
-const {Router} = require('express');
+const router = require('express').Router();
 const controller = require('./about.controller');
 
-const aboutRouter = Router();
 
-aboutRouter.route('/')
-    // .get(controller.getMany)
+router.route('/')
     .post(controller.createOne);
 
-aboutRouter.route('/:id')
+router.route('/:id')
     .get(controller.getOne)
     .put(controller.updateOne)
     .delete(controller.removeOne);
 
 
-module.exports = aboutRouter;
+module.exports = router;
 
 

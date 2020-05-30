@@ -57,9 +57,8 @@ const protect = async (req,res,next) => {
    if(!req.headers.authorization) {
        return res.status(401).end()
    }
-  const token = req.headers.authorization.split('Bearer ')[1];
+  const token = req.headers.authorization.split('Bearer ').pop();
   if(!token) return res.status(401).end();
-
     try{
         const payload = await verifyToken(token);
         const user = await User.findById(payload.id)

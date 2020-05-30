@@ -83,4 +83,4 @@ const resumeSchema = new Schema({
 
 const resumePage = model('resumeSchema', resumeSchema);
 
-module.exports = resume;
+module.exports = resumePage;
