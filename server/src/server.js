@@ -7,6 +7,7 @@ const {signIn, signUp, protect} = require('./utils/auth');
 const aboutRouter = require('./resources/About/about.router');
 const resumeRouter = require('./resources/Resume/resume.router');
 const portfolioRouter = require('./resources/Portfolio/portfolio.router');
+const contactRouter = require('./resources/contact/contact.router');
 const {router} = require('./resources/User/user.router');
 
 
@@ -21,6 +22,7 @@ app.use('/user',protect,router);
 app.use('/about',protect,aboutRouter);
 app.use('/resume',protect,resumeRouter);
 app.use('/portfolio',portfolioRouter);
+app.use('/contact',contactRouter);
 
 
 const start = () => {
