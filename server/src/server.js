@@ -6,7 +6,9 @@ require('dotenv').config();
 const {signIn, signUp, protect} = require('./utils/auth');
 const aboutRouter = require('./resources/About/about.router');
 const resumeRouter = require('./resources/Resume/resume.router');
+const portfolioRouter = require('./resources/Portfolio/portfolio.router');
 const {router} = require('./resources/User/user.router');
+
 
 const app = express();
 
@@ -16,8 +18,10 @@ app.use(cors());
 app.post('/signIn',signIn);
 app.post('/signUp',signUp);
 app.use('/user',protect,router);
-app.use('/about',aboutRouter);
-app.use('/resume',resumeRouter);
+app.use('/about',protect,aboutRouter);
+app.use('/resume',protect,resumeRouter);
+app.use('/portfolio',portfolioRouter);
+
 
 const start = () => {
     app.listen(3005,() => {
